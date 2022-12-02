@@ -23,7 +23,7 @@ spec:
               value: {{ .Values.environment }}
           resources:
             requests:
-              memory: 100Mi
+              memory: 101Mi
               cpu: 100m
             limits:
               memory: 200Mi
