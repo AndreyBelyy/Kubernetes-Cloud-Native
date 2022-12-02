@@ -40,4 +40,4 @@ steps:
 
 images:
   - ${_REGION}-docker.pkg.dev/$PROJECT_ID/demo/demo:$COMMIT_SHA
-  #
+  
