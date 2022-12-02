@@ -39,7 +39,7 @@ Almost all the example code involves our 'hello world' demo application. Here is
 * [Add secret data to the app's environment](/hello-secret-env)
 * [Mount a secrets file in the container](/hello-secret-file)
 * [Store encrypted secrets in the app repo, decrypted automatically on deploy](/hello-sops)
-* [Develop the app locally with Skaffold](/hello-skaffold)
+* [Develop the app locally with Skaffold](/hello-skaffold) "Automaticaly detects changes in a code"
 * [Build and deploy the app automatically with Drone](/hello-drone)
 * [Build and deploy the app automatically with Google Cloud Build](/hello-cloudbuild)
 
