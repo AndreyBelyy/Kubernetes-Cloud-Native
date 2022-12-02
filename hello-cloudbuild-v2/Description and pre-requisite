@@ -1,0 +1,10 @@
+Once you are signed up and logged into your own Google Cloud project, create a GKE cluster following these instructions. 
+An Autopilot cluster will be fine for this example, and choose a region that is close to your location. 
+You’ll also need to enable the Cloud Build and Artifact Registry APIs in your new project, as we’ll be using those services along with GKE.
+Next we’ll walk you through the following steps to prepare for creating the pipeline:
+
+1. Fork the demo repository into your own personal GitHub account.
+2. Create a container repository in Artifact Registry.
+3. Authenticate Cloud Build to use Artifact Registry and GKE.
+4. Create a Cloud Build trigger for building and testing on a push to any Git branch. 
+5. Create a trigger for deploying to GKE based on Git tags.
